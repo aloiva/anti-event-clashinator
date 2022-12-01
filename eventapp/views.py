@@ -6,13 +6,15 @@ from accounts import auth_fun
 
 # Create your views here.
 #------------------- helper function --------------------
-
+club_helper = []
 def ec_is_autenticate(request):
     temp = {}
     if auth_fun.club_per(request.user):
         temp['auth'] = True
         club_ec = Club_Ec.objects.get(ec=request.user)
+        club_helper.append(club_ec)
         club = Clubs.objects.get(pk=club_ec.club_id)
+        club_helper.append(club)
         temp['club'] = club
     else:
         temp['auth'] = False
@@ -21,6 +23,8 @@ def ec_is_autenticate(request):
 
 def create_event_db(request):
     temp =  {}
+    #print("info for debugging: ", request.user[0])
+    #print(Club_Ec.objects.get(ec=request.user))
     event_cover_photo = request.FILES.get('evet_cover')
     eventname = request.POST.get('event_name')
     eventlocation = request.POST.get('event_location')
@@ -29,14 +33,18 @@ def create_event_db(request):
     enddate = request.POST.get('end_date_time')
     club_ec = Club_Ec.objects.get(ec=request.user)
     club = Clubs.objects.get(pk=club_ec.club_id)
+    club_ec = club_helper[0]
+    club = club_helper[1]
     print(event_cover_photo)
+    
     event =  Events(event_cover_photo=event_cover_photo,eventname=eventname,eventlocation=eventlocation,description=description,startdate=startdate,enddate=enddate,created_by = club)
     try:
+        print(event)
         event.save()
         temp['check'] = True
         temp['event'] = event
     except Exception as e:
-        # print(e, e.__class__)
+        print(e, e.__class__)
         temp['check'] = False
     return temp
 

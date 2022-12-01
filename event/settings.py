@@ -98,9 +98,9 @@ WSGI_APPLICATION = 'event.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ems',
+        'NAME': 'se',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'root12',
         'HOST': 'localhost',
         'PORT': 3306
     }

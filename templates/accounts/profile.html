@@ -73,7 +73,9 @@
               <li class="list-inline-item"><a class="h2 page_title_name" href="#">Home</a></li>
               <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
             </ul>
-            <p class="text-lighten">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-lighten">Towards a Global Knowledge Hub, striving continuously in pursuit of excellence in Education, Research, Entrepreneurship and Technological services to the society</p> <p class = "text-lighten">
+              National Institute of Technology, Warangal (Deemed University) , formerly known as Regional Engineering College, was established in 1959.  Pandit Jawaharlal Nehru laid the foundation stone for this institute on October 10, 1959, the first in the chain of 30 NITs (formerly known as RECs) in the country.
+            </p>
           </div>
         </div>
       </div>
@@ -139,7 +141,7 @@
           {% for event in events %}
           <div class="col-md-4 col-sm-6 hover-shadow">
             <div class="event_img_holder">
-              <img src="{{MEDIA_URL}}/{{event.event_cover_photo.url}}" alt="" class="event_img">
+              <img src="{{MEDIA_URL}}{{event.event_cover_photo.url}}" alt="" class="event_img">
               <div class="event_date_time d-flex align-items-center justify-content-center">
                 <div class="">
                   <h3 class="text-center">{{ event.startdate|date:"d" }}</h3>

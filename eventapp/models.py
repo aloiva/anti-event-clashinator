@@ -1,5 +1,6 @@
 from django.db import models
 from club.models import Clubs
+import datetime
 
 # Create your models here.
 class Events(models.Model):
@@ -7,8 +8,8 @@ class Events(models.Model):
     eventname = models.CharField(blank=False, max_length = 255,unique=True)
     eventlocation = models.TextField(blank=False)
     description = models.TextField(blank=False)
-    startdate = models.DateTimeField()
-    enddate = models.DateTimeField()
+    startdate = models.DateTimeField(auto_now_add=True, blank=True)
+    enddate = models.DateTimeField(auto_now_add=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     created_by = models.ForeignKey(Clubs, on_delete=models.CASCADE)
 

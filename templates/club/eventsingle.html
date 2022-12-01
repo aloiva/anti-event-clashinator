@@ -75,7 +75,7 @@
           <div class=" row pt-md-5 mt-md-3 mb-5 ml-md-3 mr-1 ml-1">
             <div class="col-xl-8 col-lg-12 offset-xl-2 event_container">
               <div class="ml-auto text-right"><span href="#" class="event_edit_icon" data-toggle="modal" data-target="#edit_event_modal"><i class="fas fa-edit fa-2x"></i></span></div>
-              <img src="{{MEDIA_URL}}/{{event.event_cover_photo.url}}" class="" alt="Responsive image">
+              <img src="{{MEDIA_URL}}{{event.event_cover_photo.url}}" class="" alt="Responsive image">
               <div class="row pt-3" style="margin: 0px;">
                 <div class="event_heading_time col-lg-1 col-2">
                   <p>{{ event.startdate|date:"d" }}</p>

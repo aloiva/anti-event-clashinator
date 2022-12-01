@@ -105,6 +105,7 @@ def change_password(request):
                     check = ValidationError((password), code='invalid')
                 if check == None:
                     user.password = make_password(password, salt=None, hasher='default')
+                    print(user.password)
                     user.save()
                     request.user = user
                     data['ok'] = True

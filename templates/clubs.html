@@ -95,7 +95,9 @@
               <li class="list-inline-item"><a class="h2 page_title_name" href="#">EWU Clubs</a></li>
               <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
             </ul>
-            <p class="text-lighten">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-lighten">Towards a Global Knowledge Hub, striving continuously in pursuit of excellence in Education, Research, Entrepreneurship and Technological services to the society</p> <p class = "text-lighten">
+              National Institute of Technology, Warangal (Deemed University) , formerly known as Regional Engineering College, was established in 1959.  Pandit Jawaharlal Nehru laid the foundation stone for this institute on October 10, 1959, the first in the chain of 30 NITs (formerly known as RECs) in the country.
+            </p>
           </div>
         </div>
       </div>
@@ -116,7 +118,7 @@
           {% for club in clubs %}
           <div class="col-md-4 px-2 club_box mt-3">
             <div class="card" style="width: 100%;">
-              <img class="card-img-top" src="{{MEDIA_URL}}/{{club.logo.url}}" alt="Card image cap" style="width: 100%; height: 250px;">
+              <img class="card-img-top" src="{{MEDIA_URL}}{{club.logo.url}}" alt="Card image cap" style="width: 100%; height: 250px;">
               <div class="card-body">
                 <h5 class="card-title">{{ club.clubname }}</h5>
                 <a href="{% url 'club_single_user' club.clubname  %}" class="btn btn-primary">Visit Now</a>

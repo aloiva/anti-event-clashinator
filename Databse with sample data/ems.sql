@@ -5,7 +5,8 @@
 -- Host: 127.0.0.1
 -- Generation Time: May 11, 2020 at 11:24 PM
 -- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- PHP Version: USE se;
+7.3.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -48,13 +49,13 @@ CREATE TABLE `accounts_accounts` (
 --
 
 INSERT INTO `accounts_accounts` (`id`, `password`, `last_login`, `email`, `username`, `image`, `phone_number`, `fullname`, `is_active`, `is_admin`, `is_superuser`, `is_ec`) VALUES
-(1, 'pbkdf2_sha256$180000$NrtMzaBRcZE0$dag9OQavpsHcmvtNhTOCaJ3PYjxM5j4JuFit1XiVu6w=', '2020-05-08 03:29:49.829804', '2017-1-60-134@std.ewubd.edu', 'jugal', 'accounts/img_low_size.jpg', '01521461643', 'Jugal Kishore Chanda', 1, 0, 0, 1),
-(2, 'pbkdf2_sha256$180000$iAfO22kVIIx3$IylNdukxYQwDZomdI1c5Fu1yIuEzsXCkDo0T3AqNfrg=', '2020-05-08 03:00:27.615527', 'faizur@gmail.com', 'faizur', 'accounts/fai.jpg', '01512345678', 'Md. Faizur Rahman', 1, 0, 0, 1),
-(3, 'pbkdf2_sha256$180000$riLIuI3SJDrY$BGJip9snT0ryvIcgJjEEfIX4oLCEBuXwgItxvqp13ko=', '2020-05-08 02:45:16.887568', '2017-1-60-149@std.ewubd.edu', 'rimi', 'accounts/u.jpg', '01512345678', 'Umme Hani Rimi', 1, 0, 0, 1),
+(1, 'pbkdf2_sha256$180000$NrtMzaBRcZE0$dag9OQavpsHcmvtNhTOCaJ3PYjxM5j4JuFit1XiVu6w=', '2020-05-08 03:29:49.829804', '2017-1-60-134@std.ewubd.edu', 'jugal', 'accounts/blank.jpg', '01521461643', 'Jugal Kishore Chanda', 1, 0, 0, 1),
+(2, 'pbkdf2_sha256$180000$iAfO22kVIIx3$IylNdukxYQwDZomdI1c5Fu1yIuEzsXCkDo0T3AqNfrg=', '2020-05-08 03:00:27.615527', 'faizur@gmail.com', 'faizur', 'accounts/blank.jpg', '01512345678', 'Md. Faizur Rahman', 1, 0, 0, 1),
+(3, 'pbkdf2_sha256$180000$riLIuI3SJDrY$BGJip9snT0ryvIcgJjEEfIX4oLCEBuXwgItxvqp13ko=', '2020-05-08 02:45:16.887568', '2017-1-60-149@std.ewubd.edu', 'rimi', 'accounts/blank.jpg', '01512345678', 'Umme Hani Rimi', 1, 0, 0, 1),
 (4, 'pbkdf2_sha256$180000$t6BnXWvxRl9R$KR77IvtU63iDtmxx0hwhrl5MAu2/WAPdVt9pu3RO7JQ=', '2020-05-08 04:20:08.607965', 'admin@admin.com', 'admin', 'accounts/blank.png', '443003030266', 'Admin', 1, 1, 0, 0),
-(5, 'pbkdf2_sha256$180000$Lp8YDbf3voE0$PGdToudqxk/Ica2oCHxIZ9Mx13sSrRq87IMu6sz9jwE=', '2020-05-08 04:08:35.422045', '2017-1-60-138@std.ewubd.edu', 'Monir', 'accounts/monir.jpg', '0152146165', 'Monir Hossain', 1, 0, 0, 1),
-(6, 'pbkdf2_sha256$180000$jsoZRXEBtDes$F5LqrY4GOJMmqNmPScEOMNLLbkz7LtI1xeEfm13DiEQ=', NULL, '2017-1-60-129@std.edubd.edu', 'monira', 'accounts/mo.jpg', '01521461643', 'Monira Azad', 1, 0, 0, 0),
-(7, 'pbkdf2_sha256$180000$XJAX3uz6nf8H$+4Wj1us5wjhunfGPxRL2+0VzqZxtRjwgEt4m9sH1nMI=', '2020-05-08 04:23:36.428422', 'jugalchanda7@gmail.com', 'jugalchanda', 'accounts/img_low_size_hb2T2hq.jpg', '01521461643', 'Jugal Kishore Chanda', 1, 0, 0, 1);
+(5, 'pbkdf2_sha256$180000$Lp8YDbf3voE0$PGdToudqxk/Ica2oCHxIZ9Mx13sSrRq87IMu6sz9jwE=', '2020-05-08 04:08:35.422045', '2017-1-60-138@std.ewubd.edu', 'Monir', 'accounts/blank.jpg', '0152146165', 'Monir Hossain', 1, 0, 0, 1),
+(6, 'pbkdf2_sha256$180000$jsoZRXEBtDes$F5LqrY4GOJMmqNmPScEOMNLLbkz7LtI1xeEfm13DiEQ=', NULL, '2017-1-60-129@std.edubd.edu', 'monira', 'accounts/blank.jpg', '01521461643', 'Monira Azad', 1, 0, 0, 0),
+(7, 'pbkdf2_sha256$180000$XJAX3uz6nf8H$+4Wj1us5wjhunfGPxRL2+0VzqZxtRjwgEt4m9sH1nMI=', '2020-05-08 04:23:36.428422', 'jugalchanda7@gmail.com', 'jugalchanda', 'accounts/blank.jpg', '01521461643', 'Jugal Kishore Chanda', 1, 0, 0, 1);
 
 -- --------------------------------------------------------
 
@@ -97,66 +98,66 @@ CREATE TABLE `auth_permission` (
 --
 
 INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES
-(1, 'Can add log entry', 1, 'add_logentry'),
-(2, 'Can change log entry', 1, 'change_logentry'),
-(3, 'Can delete log entry', 1, 'delete_logentry'),
-(4, 'Can view log entry', 1, 'view_logentry'),
-(5, 'Can add permission', 2, 'add_permission'),
-(6, 'Can change permission', 2, 'change_permission'),
-(7, 'Can delete permission', 2, 'delete_permission'),
-(8, 'Can view permission', 2, 'view_permission'),
-(9, 'Can add group', 3, 'add_group'),
-(10, 'Can change group', 3, 'change_group'),
-(11, 'Can delete group', 3, 'delete_group'),
-(12, 'Can view group', 3, 'view_group'),
-(13, 'Can add content type', 4, 'add_contenttype'),
-(14, 'Can change content type', 4, 'change_contenttype'),
-(15, 'Can delete content type', 4, 'delete_contenttype'),
-(16, 'Can view content type', 4, 'view_contenttype'),
-(17, 'Can add session', 5, 'add_session'),
-(18, 'Can change session', 5, 'change_session'),
-(19, 'Can delete session', 5, 'delete_session'),
-(20, 'Can view session', 5, 'view_session'),
-(21, 'Can add accounts', 6, 'add_accounts'),
-(22, 'Can change accounts', 6, 'change_accounts'),
-(23, 'Can delete accounts', 6, 'delete_accounts'),
-(24, 'Can view accounts', 6, 'view_accounts'),
-(25, 'Can add club_ ec', 7, 'add_club_ec'),
-(26, 'Can change club_ ec', 7, 'change_club_ec'),
-(27, 'Can delete club_ ec', 7, 'delete_club_ec'),
-(28, 'Can view club_ ec', 7, 'view_club_ec'),
-(29, 'Can add clubs', 8, 'add_clubs'),
-(30, 'Can change clubs', 8, 'change_clubs'),
-(31, 'Can delete clubs', 8, 'delete_clubs'),
-(32, 'Can view clubs', 8, 'view_clubs'),
-(33, 'Can add member', 9, 'add_member'),
-(34, 'Can change member', 9, 'change_member'),
-(35, 'Can delete member', 9, 'delete_member'),
-(36, 'Can view member', 9, 'view_member'),
-(37, 'Can add gallery', 10, 'add_gallery'),
-(38, 'Can change gallery', 10, 'change_gallery'),
-(39, 'Can delete gallery', 10, 'delete_gallery'),
-(40, 'Can view gallery', 10, 'view_gallery'),
-(41, 'Can add academic_calendar', 11, 'add_academic_calendar'),
-(42, 'Can change academic_calendar', 11, 'change_academic_calendar'),
-(43, 'Can delete academic_calendar', 11, 'delete_academic_calendar'),
-(44, 'Can view academic_calendar', 11, 'view_academic_calendar'),
-(45, 'Can add events', 12, 'add_events'),
-(46, 'Can change events', 12, 'change_events'),
-(47, 'Can delete events', 12, 'delete_events'),
-(48, 'Can view events', 12, 'view_events'),
-(49, 'Can add perticipants_details', 13, 'add_perticipants_details'),
-(50, 'Can change perticipants_details', 13, 'change_perticipants_details'),
-(51, 'Can delete perticipants_details', 13, 'delete_perticipants_details'),
-(52, 'Can view perticipants_details', 13, 'view_perticipants_details'),
-(53, 'Can add news', 14, 'add_news'),
-(54, 'Can change news', 14, 'change_news'),
-(55, 'Can delete news', 14, 'delete_news'),
-(56, 'Can view news', 14, 'view_news'),
-(57, 'Can add notices', 15, 'add_notices'),
-(58, 'Can change notices', 15, 'change_notices'),
-(59, 'Can delete notices', 15, 'delete_notices'),
-(60, 'Can view notices', 15, 'view_notices');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (1, 'Can add log entry', 1, 'add_logentry');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (2, 'Can change log entry', 1, 'change_logentry');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (3, 'Can delete log entry', 1, 'delete_logentry');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (4, 'Can view log entry', 1, 'view_logentry');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (5, 'Can add permission', 2, 'add_permission');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (6, 'Can change permission', 2, 'change_permission');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (7, 'Can delete permission', 2, 'delete_permission');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (8, 'Can view permission', 2, 'view_permission');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (9, 'Can add group', 3, 'add_group');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (10, 'Can change group', 3, 'change_group');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (11, 'Can delete group', 3, 'delete_group');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (12, 'Can view group', 3, 'view_group');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (13, 'Can add content type', 4, 'add_contenttype');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (14, 'Can change content type', 4, 'change_contenttype');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (15, 'Can delete content type', 4, 'delete_contenttype');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (16, 'Can view content type', 4, 'view_contenttype');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (17, 'Can add session', 5, 'add_session');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (18, 'Can change session', 5, 'change_session');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (19, 'Can delete session', 5, 'delete_session');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (20, 'Can view session', 5, 'view_session');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (21, 'Can add accounts', 6, 'add_accounts');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (22, 'Can change accounts', 6, 'change_accounts');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (23, 'Can delete accounts', 6, 'delete_accounts');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (24, 'Can view accounts', 6, 'view_accounts');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (25, 'Can add club_ ec', 7, 'add_club_ec');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (26, 'Can change club_ ec', 7, 'change_club_ec');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (27, 'Can delete club_ ec', 7, 'delete_club_ec');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (28, 'Can view club_ ec', 7, 'view_club_ec');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (29, 'Can add clubs', 8, 'add_clubs');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (30, 'Can change clubs', 8, 'change_clubs');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (31, 'Can delete clubs', 8, 'delete_clubs');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (32, 'Can view clubs', 8, 'view_clubs');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (33, 'Can add member', 9, 'add_member');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (34, 'Can change member', 9, 'change_member');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (35, 'Can delete member', 9, 'delete_member');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (36, 'Can view member', 9, 'view_member');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (37, 'Can add gallery', 10, 'add_gallery');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (38, 'Can change gallery', 10, 'change_gallery');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (39, 'Can delete gallery', 10, 'delete_gallery');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (40, 'Can view gallery', 10, 'view_gallery');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (41, 'Can add academic_calendar', 11, 'add_academic_calendar');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (42, 'Can change academic_calendar', 11, 'change_academic_calendar');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (43, 'Can delete academic_calendar', 11, 'delete_academic_calendar');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (44, 'Can view academic_calendar', 11, 'view_academic_calendar');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (45, 'Can add events', 12, 'add_events');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (46, 'Can change events', 12, 'change_events');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (47, 'Can delete events', 12, 'delete_events');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (48, 'Can view events', 12, 'view_events');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (49, 'Can add perticipants_details', 13, 'add_perticipants_details');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (50, 'Can change perticipants_details', 13, 'change_perticipants_details');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (51, 'Can delete perticipants_details', 13, 'delete_perticipants_details');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (52, 'Can view perticipants_details', 13, 'view_perticipants_details');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (53, 'Can add news', 14, 'add_news');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (54, 'Can change news', 14, 'change_news');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (55, 'Can delete news', 14, 'delete_news');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (56, 'Can view news', 14, 'view_news');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (57, 'Can add notices', 15, 'add_notices');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (58, 'Can change notices', 15, 'change_notices');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (59, 'Can delete notices', 15, 'delete_notices');
+INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES (60, 'Can view notices', 15, 'view_notices');
 
 -- --------------------------------------------------------
 
@@ -183,9 +184,9 @@ CREATE TABLE `club_clubs` (
 INSERT INTO `club_clubs` (`id`, `clubname`, `shortname`, `clubemail`, `password`, `logo`, `description`, `form`, `is_active`) VALUES
 (1, 'East West University Robotics Club', 'EWURC', '', '', 'club_logo/EWU_Robotics_Club_Logo.png', 'EWU Robotics Club is the robotics platform of East West University. Every member of this club is called \"EWU Robotor\". In 2014 this was founded by Abdullah Al Mamun (A student of EWU, EEE).With the all effort of all students from all the department of EWU,now it is the biggest Robotics platform for EWU. From the beginning of this platform some students of EWU give their enormous efforts. They are Punnag Shadhu Khan(EWU,EEE),Shihab Shuvro(EWU,ETE),Sayeem Bin Kutub(EWU,EEE),A S Fardin Ahmed(EWU,CSE),Sunjida Nova(EWU,EEE),?????? ???? ???(EWU,EEE) and so many other students  from different department.Also the faculty members from EEE, ETE and CSE help this community a lot. Abdullah Al Mamun started this community through training up the students of EWU. After that, this training program is a part of this community.Throughout this training program we try to introduce new technology and inspire students to work with this technology.This community is open for all the students from all the department.We believe knowledge has no boundaries.\r\nFacebook Group:\r\nhttps://www.facebook.com/groups/ewuRoboticsClub/\r\n\r\n', '2020-05-08', 1),
 (2, 'East West University Business Club', 'EWUBC', '', '', 'club_logo/BC-logo-696x458.png', 'East West University Business Club(EWUBC) is the first club of the university with the aim to promote leadership and entrepreneurship of dexterous students. The club works with the all phases of business to practice and determine management skills under the intellectual supervision of spotlessly competent moderators. Since 1999, EWUBC has been putting efforts for students to practice creativity, teamwork, leadership, idea sharing and so much more.EWUBC functions on grooming programs for students about presentation skill development, Microsoft Excel, career talk, business competitions etc. EWUBC appreciates students by organizing many events, seminars and competitions.\r\n\r\nThe significant events of East West University Business Club are Inter University Business Plan Competition 2017, Power Presenter, Microsoft Excel Training Program, Career Clinic, Competition Courses, BriefCase (an Intra University Business Sales Competition). EWUBC also set up yearly expeditions for its members and university students.', '2020-05-08', 1),
-(3, 'Rotaract Club', 'RACEWU', '', '', 'club_logo/RACEWU_Logo.png', 'Rotaract Club of East West University (RaCEWU) is a well-known and reputed social service club which activities are not only bounded within university campus but also countrywide. Rotaract focuses on the development of young men and women as leaders in their communities and workplaces. RaCEWU also takes part in international service projects, in a global effort to bring peace and international understanding to the world. RaCEWU is emphasizing respect for the rights of others, and to promote ethical standards. RaCEWU is a place which not only performs social activities but also helps to make people more responsible to society.', '2020-05-08', 1),
-(4, 'Club For Performing Arts', 'ECPA', 'amibest50@gmail.com', 'jugal105488jugal', 'club_logo/EWU_Logo_Converted.png', 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).', '2020-05-08', 1),
-(5, 'East West University Computer Programming Club', 'EWUCoPC', 'amibest50@gmail.com', 'jugal105488jugal', 'club_logo/download.jpg', 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\n\r\nWhere can I get some?\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.\r\n\r\n5\r\n	paragraphs\r\n	words\r\n	bytes\r\n	lists\r\n	Start with \'Lorem\r\nipsum dolor sit amet...\'\r\n', '2020-05-08', 1);
+(3, 'Rotaract Club', 'RACEWU', '', '', 'club_logo/RACnitw_logo.png', 'Rotaract Club of East West University (RaCEWU) is a well-known and reputed social service club which activities are not only bounded within university campus but also countrywide. Rotaract focuses on the development of young men and women as leaders in their communities and workplaces. RaCEWU also takes part in international service projects, in a global effort to bring peace and international understanding to the world. RaCEWU is emphasizing respect for the rights of others, and to promote ethical standards. RaCEWU is a place which not only performs social activities but also helps to make people more responsible to society.', '2020-05-08', 1),
+(4, 'Club For Performing Arts', 'ECPA', 'amibest50@gmail.com', 'jugal105488jugal', 'club_logo/nitw_logo_Converted.png', 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).', '2020-05-08', 1),
+(5, 'East West University Computer Programming Club', 'EWUCoPC', 'amibest50@gmail.com', 'jugal105488jugal', 'media/club_logo/download.jpg', 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\r\n\r\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\r\n\r\nWhere can I get some?\r\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.\r\n\r\n5\r\n	paragraphs\r\n	words\r\n	bytes\r\n	lists\r\n	Start with \'Lorem\r\nipsum dolor sit amet...\'\r\n', '2020-05-08', 1);
 
 -- --------------------------------------------------------
 
@@ -205,12 +206,11 @@ CREATE TABLE `club_club_ec` (
 -- Dumping data for table `club_club_ec`
 --
 
-INSERT INTO `club_club_ec` (`id`, `date_joined`, `designation`, `club_id`, `ec_id`) VALUES
-(2, '2020-05-08', 'Vice President', 1, 1),
-(3, '2020-05-08', 'Presidant', 2, 3),
-(4, '2020-05-08', 'Presidant', 3, 2),
-(5, '2020-05-08', 'Presidant', 4, 5),
-(6, '2020-05-08', 'Vice President', 5, 7);
+INSERT INTO `club_club_ec` (`id`, `date_joined`, `designation`, `club_id`, `ec_id`) values (1, '2020-05-08', 'President', 1, 1);
+INSERT INTO `club_club_ec` (`id`, `date_joined`, `designation`, `club_id`, `ec_id`) values (2, '2020-05-08', 'President', 2, 2);
+INSERT INTO `club_club_ec` (`id`, `date_joined`, `designation`, `club_id`, `ec_id`) values (3, '2020-05-08', 'President', 3, 3);
+INSERT INTO `club_club_ec` (`id`, `date_joined`, `designation`, `club_id`, `ec_id`) values (4, '2020-05-08', 'President', 4, 6);
+-- INSERT INTO `club_club_ec` (`id`, `date_joined`, `designation`, `club_id`, `ec_id`) values (4, '2020-05-08', 'Vice President', 5, 7);
 
 -- --------------------------------------------------------
 
@@ -282,7 +282,7 @@ CREATE TABLE `club_member` (
 --
 
 INSERT INTO `club_member` (`id`, `name`, `std_id`, `email`, `phone_number`, `semister`, `completed_credit`, `approved`, `club_id`) VALUES
-(1, 'Jugal Kishore Chanda', '2017-1-60-134', 'jugalchanda7@gmail.com', '01521461643', 10, 110, 1, 1),
+(1, 'divya', '2017-1-60-134', 'divya7@gmail.com', '01521461643', 10, 110, 1, 1);
 (2, 'Jugal Kishore Chanda', '2017-1-60-134', '2017-1-60-134@std.ewubd.edu', '01521461643', 10, 110, 0, 4),
 (3, 'Jugal Kishore Chanda', '2017-1-60-134', '2017-1-60-134@std.ewubd.edu', '443003030266', 10, 110, 1, 5);
 
@@ -489,9 +489,9 @@ CREATE TABLE `newandnotices_news` (
 
 INSERT INTO `newandnotices_news` (`id`, `newstitle`, `description`, `created_at`) VALUES
 (1, 'INFORMATION STUDIES AND LIBRARY MANAGEMENT DEPARTMENT OF EAST WEST UNIVERSITY CELEBRATE PAHELA BAISHAKH ONLINE', 'Information Studies and Library Management Department of East West University celebrated Pahela Baishakh online amid the spread of novel coronavirus in the country.\r\n\r\nTeachers and Students of the department joined a video conference using the online platform Zoom to celebrate this year’s Pahela Baisakh. \r\n\r\nUnder the directions of the department’s Chairperson Dr. Dilara Begum, the students participated in different activities such as dancing, singing, reciting and quiz competition while staying safe inside their home. \r\n\r\nDuring this time the chairperson and the faculty members of the department provide notitiae statement about the coronavirus to the students. At this point, it should be mentioned that faculty members and students of the department have jointly worked to collect fund for the helpless people around the university. \r\n\r\nThis exceptional celebration of the department has been an unprecedented response among the students.\r\n\r\n “We all will celebrate Pahela Baishakh together next year with new dreams and possibilities in a Bangladesh free from coronavirus,” Dr Dilara Begum said to the students at the video conference.', '2020-05-08'),
-(2, 'CRACKING BRAND CRISIS THROUGH ‘BRAND AID’', 'East West University Business Club has inaugurated, for the second time, \'Brand Aid- an intra university business strategy competition\' powered by SPEED. The club has singed partnership, as well, with many companies to make this event a blast! Brand Aid\'s theme is based on how a company should proceed while facing a brand crisis. Students who have participated in this competition will have a pellucid idea how a brand can have the proper aid required to beat other brands in the market. Every team, consisting of three members, will work to solve variety of branding crisis as they get going onto next rounds.  Around 107 teams have registered initially in \'Brand Aid\'; a breakthrough number of teams for an intra university competition and only 30 teams passed through the online screening with their masterly ideas where they had to solve a case based on a telecommunication company. These 30 teams got to attend the second round workshop on 1st March which was arranged to prepare the teams for the upcoming rounds. At the end of this workshop, teams were provided with second round case which had to be presented by their teams on campus at 3rd March. Professional corporate personnel from prominent companies had judged those 30 teams and only 16 teams had been qualified to move on-to the next round, semi-finale which was held on 7th March. Out of 107 teams only 6 teams made their way to the grand finale. A grand gala took place on that very day. On behalf of Akij Food and Beverage Limited, as the chief guest, Khondoker Golam Azam; Cheif People Officer and as the guest of honour, MD. Maidul Islam; Head of Marketing attended the gala and enhanced its significance. At the end of the program top 3 winning teams were honored with trophies. The champion team \'Last Picks\' will also be prized with an exciting trip for their refreshment by our trip partner, \'The Paradise Tourism\'. The other partners of this event are the photography partner, \'Studio Velvet\' and attire partner, \'Formal Point\'.\r\n\r\nEast West University Business Club is hoping to set precedence for business competitions in the students whilst making \'Brand Aid\' a real brand.', '2020-05-08'),
-(4, 'What is Lorem Ipsum?', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2020-05-08'),
-(5, 'Where can I get some?', 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', '2020-05-08');
+(2, 'CRACKING BRAND CRISIS THROUGH ‘BRAND AID’', 'East West University Business Club has inaugurated, for the second time, "Brand Aid- an intra university business strategy competition" powered by SPEED. The club has singed partnership, as well, with many companies to make this event a blast! Brand Aids theme is based on how a company should proceed while facing a brand crisis. Students who have participated in this competition will have a pellucid idea how a brand can have the proper aid required to beat other brands in the market. Every team, consisting of three members, will work to solve variety of branding crisis as they get going onto next rounds.  Around 107 teams have registered initially in Brand Aid; a breakthrough number of teams for an intra university competition and only 30 teams passed through the online screening with their masterly ideas where they had to solve a case based on a telecommunication company. These 30 teams got to attend the second round workshop on 1st March which was arranged to prepare the teams for the upcoming rounds. At the end of this workshop, teams were provided with second round case which had to be presented by their teams on campus at 3rd March. Professional corporate personnel from prominent companies had judged those 30 teams and only 16 teams had been qualified to move on-to the next round, semi-finale which was held on 7th March. Out of 107 teams only 6 teams made their way to the grand finale. A grand gala took place on that very day. On behalf of Akij Food and Beverage Limited, as the chief guest, Khondoker Golam Azam; Cheif People Officer and as the guest of honour, MD. Maidul Islam; Head of Marketing attended the gala and enhanced its significance. At the end of the program top 3 winning teams were honored with trophies. The champion team Last Picks will also be prized with an exciting trip for their refreshment by our trip partner, \'The Paradise Tourism\'. The other partners of this event are the photography partner, \'Studio Velvet\' and attire partner, Formal Point.\r\n\r\nEast West University Business Club is hoping to set precedence for business competitions in the students whilst making Brand Aid a real brand.', '2020-05-08'),
+(4, 'What is Lorem Ipsum?', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '2020-05-08'),
+(5, 'Where can I get some?', 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', '2020-05-08');
 
 -- --------------------------------------------------------
 
@@ -787,3 +787,17 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+insert into accounts_accounts values (  8 , 'pbkdf2_sha256$390000$IzGpJPYfRWQMl820yzd7U8$qn0+CdETPFbp9Rtt7x3yZJxgP9guAS5goxhSXsw6pHM=' , '2022-12-01 13:14:13.49873'  , 'pranava_admin@gmail.com'     , pranava     , 'accounts/blank_8Fd3D59.png' , 9999999999   , 'pranava'              ,         1 ,        1 ,            1 ,     0 );
+
+
+
+INSERT INTO `club_clubs` (`id`, `clubname`, `shortname`, `clubemail`, `password`, `logo`, `description`, `form`, `is_active`) VALUES (1, 'CSE Association', 'CSEA', 'csea@gmail.com', 'csea2022csea', 'club_logo/csea.png', 'CSEA has been functioning over the years in the department of Computer Science & Engineering with the objectives of promoting student activities for organizing and participating in co-curricular activities by the students of the Department.\nAt the start of new academic session, CSEA recruits its new team every year.\nInterviews are done for Several Roles like General Secretary, Additional Secretary, Joint Secretary and Executive Members.\nThe events conducted by CSEA promote Organizing capabilities and communication skills of students in addition to developing the technical knowledge.\nLink to CSEA Official\nWebsite : www.cseanitw.in/team/', '2022-11-08', 1);
+INSERT INTO `club_clubs` (`id`, `clubname`, `shortname`, `clubemail`, `password`, `logo`, `description`, `form`, `is_active`) VALUES (2, 'ECE Association', 'ECEA', 'ecea@gmail.com', 'ecea2022ecea', 'club_logo/ecea.png', 'The Electronics and Communication Engineering Association(ECEA) at NIT Warangal aims to enrich the learning experience of engineering students. ECEA believes this experience is not a simple curve but a tree, with branches nurturing into various fields. We conduct numerous workshops, hackathons, career fairs, and webinars, spread across multiple domains to ensure the intellectual growth of our students. Promoting the notion of a work-life balance, ECEA also hosts many fun events to give our students a break from the fast-paced semesters. At its heart, ECEA is a group of engineers who strive to make the journey of our fellow engineers a little less stressful and a lot more rewarding!', '2022-11-08', 1);
+INSERT INTO `club_clubs` (`id`, `clubname`, `shortname`, `clubemail`, `password`, `logo`, `description`, `form`, `is_active`) VALUES (3, 'Innovation Garrage', 'IG', 'ig@gmail.com', 'ig2022ig', 'club_logo/ig.png', 'We are an incubation center that strives to promote innovations that have a direct impact on society, We do this by providing a platform for young and passionate innovators to incubate their startup and assist them at every step. From assisting innovators in acquiring the skills required to make their idea a reality to Intellectual Property Rights Cell, We have it all.', '2022-11-08', 1),
+INSERT INTO `club_clubs` (`id`, `clubname`, `shortname`, `clubemail`, `password`, `logo`, `description`, `form`, `is_active`) VALUES (4, 'Literary and Debate Club', 'LDC', 'ldc@gmail.com', 'ldc2022ldc', 'club_logo/ldc.png', 'Literary and Debating Club (LDC) aspires to be a platform where every individual is nurtured to realize his potential, where there is an atmosphere of joyous learning, responsibility to society, dedication to hard work, commitment to be tolerant, compassionate and inclusive.', '2022-11-08', 1);
+
+INSERT INTO `accounts_accounts` (`id`, `password`, `last_login`, `email`, `username`, `image`, `phone_number`, `fullname`, `is_active`, `is_admin`, `is_superuser`, `is_ec`) VALUES (1, 'pbkdf2_sha256$390000$IzGpJPYfRWQMl820yzd7U8$qn0+CdETPFbp9Rtt7x3yZJxgP9guAS5goxhSXsw6pHM=', '2022-11-15 06:42:33.829804', 'pranava0290@gmail.com', 'pranava', 'accounts/blank.png', '01234567890', 'Pranava Vedagnya', 1, 0, 0, 1);
+INSERT INTO `accounts_accounts` (`id`, `password`, `last_login`, `email`, `username`, `image`, `phone_number`, `fullname`, `is_active`, `is_admin`, `is_superuser`, `is_ec`) VALUES (2, 'pbkdf2_sha256$390000$IzGpJPYfRWQMl820yzd7U8$qn0+CdETPFbp9Rtt7x3yZJxgP9guAS5goxhSXsw6pHM=', '2022-11-15 06:42:33.615527', 'divya@gmail.com', 'divya', 'accounts/blank.png', '01234567890', 'Divya Soni', 1, 0, 0, 1);
+INSERT INTO `accounts_accounts` (`id`, `password`, `last_login`, `email`, `username`, `image`, `phone_number`, `fullname`, `is_active`, `is_admin`, `is_superuser`, `is_ec`) VALUES (3, 'pbkdf2_sha256$390000$IzGpJPYfRWQMl820yzd7U8$qn0+CdETPFbp9Rtt7x3yZJxgP9guAS5goxhSXsw6pHM=', '2022-11-15 06:42:33.887568', 'lakshya@gmail.com', 'lakshya', 'accounts/blank.png', '01234567890', 'Lakshya Jalan', 1, 0, 0, 1);
+INSERT INTO `accounts_accounts` (`id`, `password`, `last_login`, `email`, `username`, `image`, `phone_number`, `fullname`, `is_active`, `is_admin`, `is_superuser`, `is_ec`) VALUES (4, 'pbkdf2_sha256$390000$IzGpJPYfRWQMl820yzd7U8$qn0+CdETPFbp9Rtt7x3yZJxgP9guAS5goxhSXsw6pHM=', '2022-11-15 06:42:33.607965', 'arunakiran@gmail.com', 'arunakiran', 'accounts/blank.png', '01234567890', 'Arunakiran Mahadevamangalam', 1, 0, 0, 1);

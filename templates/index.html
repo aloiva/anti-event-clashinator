@@ -20,7 +20,7 @@
       <div class="container ">
           <div class="row no-gutters">
             <div class="col-lg-4 text-center text-lg-left">
-              <a class="text-color mr-3" href="callto: 09666775577" style="font-size: 22px;"><strong>CALL</strong> 09666775577</a>
+              <!-- <a class="text-color mr-3" href="callto: 09666775577" style="font-size: 22px;"><strong>CALL</strong> 09666775577</a> -->
             </div>
             <div class="col-lg-8 text-center text-lg-right">
               <ul class="list-inline mb-0">
@@ -86,20 +86,22 @@
               <li class="list-inline-item"><a class="h2 page_title_name" href="#">Home</a></li>
               <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
             </ul>
-            <p class="text-lighten">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-lighten">Towards a Global Knowledge Hub, striving continuously in pursuit of excellence in Education, Research, Entrepreneurship and Technological services to the society</p> <p class = "text-lighten">
+              National Institute of Technology, Warangal (Deemed University) , formerly known as Regional Engineering College, was established in 1959.  Pandit Jawaharlal Nehru laid the foundation stone for this institute on October 10, 1959, the first in the chain of 30 NITs (formerly known as RECs) in the country.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="">
+    <!-- <section class="">
       <h3 class="text-center section_title">News and Notices</h3>
       <div class="container">
         <div class="row no-gutters">
           <div class="col-md-5 news_notice_sec_container" id="news_section">
-            <h4 class="text-center news_notice_title">News</h4>
+            <h4 class="text-center news_notice_title">News</h4> -->
             <!-- Individual News Start -->
-            {% for news_single in news %}
+            <!-- {% for news_single in news %}
             <div class="row no-gutters news_notice_sec">
               <div class="col-sm-2 d-flex align-items-center">
                 <div class="data_time_sec">
@@ -113,16 +115,16 @@
                 <a href="{% url 'newssingle' news_single.newstitle %}" class="continue_reading_btn">Continue Reading...</a>
               </div>
             </div>
-            {% endfor %}
+            {% endfor %} -->
             <!-- Individual News End -->
-          </div>
+          <!-- </div>
           <div class="col-md-1 middle_border_1"></div>
           <div class="col-md-1 middle_border_2"></div>
           <div class="col-md-5  news_notice_sec_container">
-            <h4 class="text-center news_notice_title">Notices</h4>
+            <h4 class="text-center news_notice_title">Notices</h4> -->
 
             <!-- Individual Notice Start -->
-            {% for notice in notices %}
+            <!-- {% for notice in notices %}
             <div class="row no-gutters news_notice_sec">
               <div class="col-sm-2 d-flex align-items-center">
                 <div class="data_time_sec">
@@ -136,13 +138,13 @@
                 <a href="{% url 'noticeingle' notice.noticetitle %}" class="continue_reading_btn">Continue Reading...</a>
               </div>
             </div>
-            {% endfor %}
+            {% endfor %} -->
             <!-- Individual Notice End -->
-
+<!-- 
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="">
       <h3 class="text-center section_title">Events</h3>
@@ -152,7 +154,7 @@
           {% for event in events %}
           <div class="col-md-4 col-sm-6 hover-shadow">
             <div class="event_img_holder">
-              <img src="{{MEDIA_URL}}/{{event.event_cover_photo.url}}" alt="" class="event_img">
+              <img src="{{MEDIA_URL}}{{event.event_cover_photo.url}}" alt="" class="event_img">
               <div class="event_date_time d-flex align-items-center justify-content-center">
                 <div class="">
                   <h3 class="text-center">{{ event.startdate|date:"d" }}</h3>
